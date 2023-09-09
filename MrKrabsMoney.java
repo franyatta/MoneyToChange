@@ -27,7 +27,7 @@ public class MrKrabsMoney {
 		
 		// Dimes
 		int dimes = remainingAmount / 10;
-		dimes = remainingAmount % 10;
+		remainingAmount = remainingAmount % 10;
 		
 		// Nickels
 		int nickels = remainingAmount / 5;
